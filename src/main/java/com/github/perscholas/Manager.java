@@ -14,7 +14,6 @@ public class Manager extends AbstractEmployee {
 
     // TODO - Modify to ensure the respective test case passes
     public Manager() {
-        this.setSpecialAllowance(250.8);
-        this.setHealthReimbursementAccount(1000.5);
+
     }
 }
