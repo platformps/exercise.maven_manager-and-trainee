@@ -19,10 +19,22 @@ public class AbstractEmployee implements EmployeeInterface {
 
     // TODO - Ensure that each of the arguments passed through the constructor are assigned to a respective instance variable
     private AbstractEmployee(Long id, String name, String address, Long phoneNumber, Double basicSalary, Double specialAllowance, Double healthReimbursementAccount) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+        this.basicSalary = basicSalary;
+        this.specialAllowance = specialAllowance;
+        this.healthReimbursementAccount = healthReimbursementAccount;
     }
 
     // TODO - Ensure that each of the arguments passed through the constructor are assigned to a respective instance variable
     public AbstractEmployee(Long id, String name, String address, Long phoneNumber, Double basicSalary) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+        this.basicSalary = basicSalary;
     }
 
     public AbstractEmployee() {
