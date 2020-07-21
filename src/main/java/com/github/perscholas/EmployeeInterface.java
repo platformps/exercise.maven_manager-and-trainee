@@ -16,4 +16,5 @@ public interface EmployeeInterface {
     Double setSpecialAllowance(Double specialAllowance);
     Double setHealthReimbursementAccount(Double healthReimbursementAccount);
     Double calculateSalary();
+    Double calculateTransportAllowance();
 }
