@@ -59,7 +59,7 @@ public class AbstractEmployee implements  EmployeeInterface {
 
     @Override
     public Double getBasicSalary() {
-        return basicSalary;
+        return this.basicSalary;
     }
 
     @Override
@@ -111,5 +111,10 @@ public class AbstractEmployee implements  EmployeeInterface {
     @Override
     public void setHealthReimbursementAccount(Double healthReimbursementAccount) {
             this.healthReimbursementAccount = healthReimbursementAccount;
+    }
+
+
+    public double calculateTransportAllowance(){
+        return  (.10/100*basicSalary);
     }
 }

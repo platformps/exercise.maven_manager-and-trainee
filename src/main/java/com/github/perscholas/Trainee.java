@@ -11,5 +11,10 @@ public class Trainee extends AbstractEmployee{
 
     // TODO - Modify to ensure the respective test case passes
     public Trainee() {
+        super(null, null, null, null, null, 250.80, 1000.50);
     }
-}
+
+
+
+    }
+
