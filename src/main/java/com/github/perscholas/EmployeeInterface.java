@@ -1,19 +1,19 @@
 package com.github.perscholas;
 
 public interface EmployeeInterface {
-    Long getId();
-    String getName();
-    String getAddress();
-    Long getPhoneNumber();
-    Double getBasicSalary();
-    Double getSpecialAllowance();
-    Double getHealthReimbursementAccount();
-    Long setId(Long id);
-    String setName(String name);
-    String setAddress(String address);
-    Long setPhoneNumber(Long phoneNumber);
-    Double setBasicSalary(Double basicSalary);
-    Double setSpecialAllowance(Double specialAllowance);
-    Double setHealthReimbursementAccount(Double healthReimbursementAccount);
-    Double calculateSalary();
+    public Long getId();
+    public String getName();
+    public String getAddress();
+    public Long getPhoneNumber();
+    public Double getBasicSalary();
+    public Double getSpecialAllowance();
+    public Double getHealthReimbursementAccount();
+    public void setId(Long id);
+    public void setName(String name);
+    public void setAddress(String address);
+    public void setPhoneNumber(Long phoneNumber);
+    public void setBasicSalary(Double basicSalary);
+    public void setSpecialAllowance(Double specialAllowance);
+    public void setHealthReimbursementAccount(Double healthReimbursementAccount);
+    public Double calculateSalary();
 }
