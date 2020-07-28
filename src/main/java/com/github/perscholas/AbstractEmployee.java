@@ -8,6 +8,7 @@ package com.github.perscholas;
 public class AbstractEmployee {
     private Object exampleOfInstanceVariable; // TODO - Replace with correct instance variable declarations
 
+
     // TODO - Ensure that each of the arguments passed through the constructor are assigned to a respective instance variable
     private AbstractEmployee(Long id, String name, String address, Long phoneNumber, Double basicSalary, Double specialAllowance, Double healthReimbursementAccount) {
     }
