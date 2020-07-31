@@ -26,5 +26,10 @@ public class ApplicationRunner implements Runnable {
          * The salary calculated should be printed in the console
          *
          */
+        Manager manager = new Manager(126534L,"Peter","Chennai India", 237844L , 65000.00);
+        manager.calculateSalary();
+
+        Trainee trainee = new Trainee(29846L,"Jack","Mumbai India",442085L,45000.00);
+        trainee.calculateSalary();
     }
 }
