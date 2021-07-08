@@ -1,5 +1,9 @@
+/**
+ * Updated the setter methods to return void
+ * Monica Deshmukh
+ * 07/21/2020
+ */
 package com.github.perscholas;
-
 public interface EmployeeInterface {
     Long getId();
     String getName();
@@ -8,12 +12,12 @@ public interface EmployeeInterface {
     Double getBasicSalary();
     Double getSpecialAllowance();
     Double getHealthReimbursementAccount();
-    Long setId(Long id);
-    String setName(String name);
-    String setAddress(String address);
-    Long setPhoneNumber(Long phoneNumber);
-    Double setBasicSalary(Double basicSalary);
-    Double setSpecialAllowance(Double specialAllowance);
-    Double setHealthReimbursementAccount(Double healthReimbursementAccount);
+    void setId(Long id);
+    void setName(String name);
+    void setAddress(String address);
+    void setPhoneNumber(Long phoneNumber);
+    void setBasicSalary(Double basicSalary);
+    void setSpecialAllowance(Double specialAllowance);
+    void setHealthReimbursementAccount(Double healthReimbursementAccount);
     Double calculateSalary();
 }
